@@ -1,0 +1,105 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@color/blue">
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/app_title"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_spotify"
+        android:id="@+id/button_spotify"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/orange"
+        android:layout_marginBottom="4dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_super_duo_football"
+        android:id="@+id/button_scores"
+        android:layout_below="@+id/button_spotify"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button_spotify"
+        android:layout_alignEnd="@+id/button_spotify"
+        android:background="@color/orange"
+        android:layout_marginBottom="4dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_super_duo_libray"
+        android:id="@+id/button_library"
+        android:layout_below="@+id/button_scores"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button_scores"
+        android:layout_alignEnd="@+id/button_scores"
+        android:background="@color/orange"
+        android:layout_marginBottom="4dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_build_it"
+        android:id="@+id/button_build_it"
+        android:layout_below="@+id/button_library"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button_library"
+        android:layout_alignEnd="@+id/button_library"
+        android:background="@color/orange"
+        android:layout_marginBottom="4dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_xyz_reader"
+        android:id="@+id/button_reader"
+        android:layout_below="@+id/button_build_it"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button_build_it"
+        android:layout_alignEnd="@+id/button_build_it"
+        android:background="@color/orange"
+        android:layout_marginBottom="4dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_capstone"
+        android:id="@+id/button"
+        android:layout_below="@+id/button_reader"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button_reader"
+        android:layout_alignEnd="@+id/button_reader"
+        android:background="@android:color/holo_red_dark"
+        android:layout_marginBottom="4dp"/>
+
+
+
+</RelativeLayout>
+</ScrollView>
